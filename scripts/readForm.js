@@ -1,4 +1,4 @@
-const getData = () => {
+const readForm = () => {
     let nameInput = document.getElementById('nameInput').value
     let dateInput = document.getElementById('dateInput').value
     let hrInput = document.getElementById('hrInput').value
@@ -13,4 +13,4 @@ const getData = () => {
     return dataObj
 }
 
-export default getData;
+export default readForm;
